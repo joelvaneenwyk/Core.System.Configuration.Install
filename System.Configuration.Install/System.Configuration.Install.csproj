@@ -1,10 +1,11 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    <TargetFramework>netstandard2.0</TargetFramework>
+    <TargetFramework>net8.0-windows</TargetFramework>
     <AssemblyName>System.Configuration.Install</AssemblyName>
     <AssemblyTitle>System.Configuration.Install</AssemblyTitle>
     <PackageId>Core.System.Configuration.Install</PackageId>
     <LangVersion>7.2</LangVersion>
+    <UseWindowsForms>true</UseWindowsForms>
     <RootNamespace>
     </RootNamespace>
     <Version>1.1.0</Version>
@@ -19,8 +20,6 @@
     <PackageReleaseNotes>Using the official System.Diagnostic classes. Thanks Gábor Zavarkó</PackageReleaseNotes>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="Newtonsoft.Json" Version="12.0.2" />
-    <PackageReference Include="System.Diagnostics.EventLog" Version="4.7.0" />
-    <PackageReference Include="System.Diagnostics.PerformanceCounter" Version="4.7.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
   </ItemGroup>
 </Project>
